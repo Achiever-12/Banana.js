@@ -1,7 +1,16 @@
-function _(selector){
-    var self=document.querySelector(selector)
-    self.write=function(){
-    return self.innerTEXT;
-}
-    return self;
+//© Achiever
+
+function _(selector){ 
+let self=document.querySelector(selector);
+
+ self.text=function(text){
+ if(text){
+     self.innerTEXT=text;
+ }
+ return self.innerTEXT;
+ } 
+ self.html=function(){
+     return self.innerHTML;
+ }
+ return self
 }
