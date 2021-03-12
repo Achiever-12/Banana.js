@@ -1,4 +1,4 @@
 //© Achieve
 function rand(){
-Math.random()
+alert(Math.random())
 }
